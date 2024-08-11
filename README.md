@@ -23,7 +23,7 @@ Aplikasi ini dirancang untuk mempermudah proses pembuatan lampiran foto dalam su
 ## How It Works
 
 1. **Input URL**: User membuka aplikasi dan menempelkan link produk dari e-katalog ke input yang disediakan.
-2. **Generate Card**: Setelah tombol "Generate Card" ditekan, aplikasi akan melakukan request ke backend server.
+2. **Generate Card**: Setelah tombol "Generate Card" ditekan, aplikasi akan melakukan request ke backend server, dan skeleton akan muncul sebagai pertanda status loading.
 3. **Scraping Data**: Backend server menggunakan Puppeteer untuk melakukan scraping data dari website e-katalog, seperti nama penyedia, nama produk, harga, kode produk, komponen biaya, dan gambar produk.
 4. **Display Card**: Data yang berhasil diambil akan ditampilkan pada card di frontend, setelah skeleton loading selesai.
 5. **Download Image**: Setelah kartu berhasil dibuat, user dapat mengunduhnya sebagai gambar.
@@ -35,7 +35,8 @@ Aplikasi ini dirancang untuk mempermudah proses pembuatan lampiran foto dalam su
 - **ShadcnUI**: Komponen UI yang mempermudah pengembangan antarmuka.
 - **Puppeteer**: Untuk scraping data dari halaman produk e-katalog.
 - **Axios**: Digunakan untuk meng-handle HTTP request antara frontend dan backend.
-- **Vercel v0**: Deployment menggunakan platform Vercel dengan dukungan full-stack Next.js.
+- **Vercel**: Deployment menggunakan platform Vercel dengan dukungan full-stack Next.js.
+- **V0 by vercel**: Komponen generator yang mempermudah pembuatan UI secara cepat
 
 ## Getting Started
 
@@ -73,3 +74,5 @@ Terima kasih kepada semua kontributor open-source yang telah membuat proyek ini 
 ---
 
 Selamat menggunakan `ekatalog-card-generator`! Jika Anda menemukan masalah atau memiliki pertanyaan, jangan ragu untuk menghubungi kami melalui [issues](https://github.com/username/ekatalog-card-generator/issues).
+
+Iya, readme ini di generate oleh chatgpt karena gw terlalu bingung mau nulis apa..
