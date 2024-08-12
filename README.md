@@ -44,7 +44,7 @@ Untuk memulai proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut
 
 1. **Clone repository ini**:
     ```bash
-    git clone https://github.com/username/ekatalog-card-generator.git
+    git clone https://github.com/WinnFreeza27/ekatalog-card-generator.git
     ```
 2. **Install dependencies**:
     ```bash
