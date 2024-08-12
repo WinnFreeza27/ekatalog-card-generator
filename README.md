@@ -35,7 +35,6 @@ Aplikasi ini dirancang untuk mempermudah proses pembuatan lampiran foto dalam su
 - **ShadcnUI**: Komponen UI yang mempermudah pengembangan antarmuka.
 - **Puppeteer**: Untuk scraping data dari halaman produk e-katalog.
 - **Axios**: Digunakan untuk meng-handle HTTP request antara frontend dan backend.
-- **Vercel**: Deployment menggunakan platform Vercel dengan dukungan full-stack Next.js.
 - **V0 by vercel**: Komponen generator yang mempermudah pembuatan UI secara cepat
 
 ## Getting Started
@@ -76,3 +75,5 @@ Terima kasih kepada semua kontributor open-source yang telah membuat proyek ini 
 Selamat menggunakan `ekatalog-card-generator`! Jika Anda menemukan masalah atau memiliki pertanyaan, jangan ragu untuk menghubungi kami melalui [issues](https://github.com/username/ekatalog-card-generator/issues).
 
 Iya, readme ini di generate oleh chatgpt karena gw terlalu bingung mau nulis apa..
+
+*note app ini tidak bisa di hosting melalui vercel karena vercel hanya serverless hosting, jadi puppeteer dan filesystem serta path dari enviroment nodeJS tidak bisa digunakan, i will figure it out soon and make update here if find any solution for it.
