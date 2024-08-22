@@ -77,3 +77,5 @@ Selamat menggunakan `ekatalog-card-generator`! Jika Anda menemukan masalah atau 
 Iya, readme ini di generate oleh chatgpt karena gw terlalu bingung mau nulis apa..
 
 *note app ini tidak bisa di hosting melalui vercel karena vercel hanya serverless hosting, jadi puppeteer dan filesystem serta path dari enviroment nodeJS tidak bisa digunakan, i will figure it out soon and make update here if find any solution for it.
+
+Powered by **WinnFreeza27**
